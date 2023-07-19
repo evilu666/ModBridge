@@ -1,0 +1,5 @@
+displayName = Mod bridge
+author = eviLu
+version = 0.3
+
+modReferences = ThoriumMod

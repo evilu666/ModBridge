@@ -1,0 +1,58 @@
+
+Mods: {
+	ModBridge: {
+		Prefixes: {
+			BasicRadiantBoostPrefix.DisplayName: Basic Radiant Boost Prefix
+
+			MinorHealBoostPrefix: {
+				DisplayName: Healy
+			}
+
+			HealBoostPrefix: {
+				DisplayName: Healing
+			}
+
+			MajorHealBoostPrefix: {
+				DisplayName: Heal Boosting
+			}
+
+			HealMultTooltip: "{0:P2} Increased healing"
+			SoulEssenceBonusTooltip: "{0:+0;-#} Soul essence on hit"
+		}
+
+		DamageClasses.ConvertedRadiantDamage.DisplayName: radiant damage
+
+		Items: {
+			RadiantFocus.DisplayName: Radiant Focus
+			SoulCollector.DisplayName: Soul Collector
+			AncientWulfrumLivingWeapon.DisplayName: Ancient Wulfrum Shotgun
+
+			Disparager: {
+				DisplayName: Disparager
+				Tooltip: Shoots a medium ranged pulse of coalesced light that can pierce infinitely
+			}
+
+			LightCartridge: {
+				DisplayName: Light Cartridge
+				Tooltip: Used to power weapons shooting coalesced light
+			}
+
+			TacticalLaserRifle: {
+				DisplayName: Tactical Laser Rifle
+				Tooltip:
+					'''
+					Shoots a short pulses of coalesced light that can pierce infinitely
+					Will reflect up to 8 times
+					Each reflection increases the damge by 40%
+					Can switch between automatic and semi automatic mode with right click
+					'''
+			}
+		}
+
+		Projectiles: {
+			DisparagerProjectile.DisplayName: Disparager Projectile
+			ShortLaserProjectile.DisplayName: Short Laser Projectile
+			WulfrumShotgunProjectile.DisplayName: Wulfrum Shotgun Projectile
+		}
+	}
+}

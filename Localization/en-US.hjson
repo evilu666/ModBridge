@@ -1,0 +1,15 @@
+
+Mods: {
+	ModBridge: {
+		Prefixes: {
+			BasicRadiantBoostPrefix: {
+				DisplayName: Basic Radiant Boost Prefix
+			},
+			MinorHealBoostPrefix.DisplayName: "Healy",
+			HealBoostPrefix.DisplayName: "Healing",
+			MajorHealBoostPrefix.DisplayName: "Heal boosting",
+			HealMultTooltip: "{0:P2} Increased healing",
+			SoulEssenceBonusTooltip: "{0:+0;-#} Soul essence on hit"
+		}
+	}
+}
